@@ -85,3 +85,46 @@ a {
 	background-color: #E85D25 !important;
 	color: white !important;
 }
+
+/* container holding the image and the text */
+.over-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* bottom left text */
+.over-bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* top left text */
+.over-top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* top right text */
+.over-top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* bottom right text */
+.over-bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* centered text */
+.over-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

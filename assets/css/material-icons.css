@@ -1,0 +1,31 @@
+/* Modified material icons (patch) */ 
+
+.material-icons {
+  margin-top: -2px;
+  vertical-align: middle;
+  display: inline-flex;
+}
+
+.material-icons-outlined {
+    margin-top: -2px;
+    vertical-align: middle;
+    display: inline-flex;
+}
+
+.material-icons-round {
+    margin-top: -2px;
+    vertical-align: middle;
+    display: inline-flex;
+}
+
+.material-icons-sharp {
+    margin-top: -2px;
+    vertical-align: middle;
+    display: inline-flex;
+}
+
+.material-icons-two-tone {
+    margin-top: -2px;
+    vertical-align: middle;
+    display: inline-flex;
+}

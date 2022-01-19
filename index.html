@@ -67,22 +67,22 @@
     <div class="container mt-5 pt-4">
       
       <div class="pt-lg-5 pt-4 px-lg-5 px-4 mb-4 bg-light border rounded-3">
-        <div class="row">
+        <div class="row mt-5">
           <div class="col-md-7 col-sm-12 my-auto">
-            <h3 class="fw-light" id="goto1">Case Study</h3>
+            <h3 class="fw-light">Case Study</h3>
             <h1>Service Complaint myIndihome</h1>
             <p class="text-muted pt-2">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
           </div>
-          <div class="col-md-5 col-sm-12 mt-lg-0 mt-4">
+          <div class="col-md-4 col-sm-12 offset-md-1 mt-lg-0 mt-4">
             <img class="img-fluid" src="assets/img/hifi/intro.png">
           </div>
         </div>
       </div>
 
-      <div class="px-lg-5 px-4 mb-4">
+      <div class="px-lg-5 px-4 mb-4" id="goto1">
         <div class="row">
           <div class="col-md-4 col-sm-12 my-auto">
-            <div class="fs-3 mb-3" id="goto1">Design Process</div>
+            <div class="fs-3 mb-3">Design Process</div>
             <p>Design thinking is a non-linear, iterative process that teams use to understand users, challenge assumptions, redefine problems and create innovative solutions to prototype and test. Involving five phases—Empathize, Define, Ideate, Prototype and Test—it is most useful to tackle problems that are ill-defined or unknown.</p>
             <div class="d-none d-sm-block">
               <a href="https://www.interaction-design.org/literature/topics/design-thinking" target="_newtab" class="btn btn-outline-secondary">Learn More<i class="material-icons ms-2">link</i></a>
@@ -99,7 +99,7 @@
         <div class="row">
           <div class="col-md-7 col-sm-12 my-auto">
             <i class="material-icons me-2 mb-3" style="font-size: 40px;">accessibility_new</i>
-            <div class="fs-3">Emphatize</div>
+            <div class="fs-3 mb-3">Emphatize : Understanding the human needs involved.</div>
             <p>We should gain an empathetic understanding of the problem we’re trying to solve, through user research. Empathy is crucial to a human-centered design process such as design thinking because it allows you to set aside your own assumptions about the world and gain real insight into users and their needs.</p>
             <div class="d-none d-sm-block">
               <a href="/assets/doc/1-researchplan.pdf" target="_newtab" class="btn btn-outline-light me-2"><i class="material-icons me-2">description</i>Research Plan</a>
@@ -114,13 +114,34 @@
 
       <div class="px-lg-5 px-4 py-2 mb-4">
         <div class="row">
-          <div class="col-md-4 col-sm-12 my-auto">
-            <div class="fs-3 mb-3" id="goto1">Define</div>
+          <div class="col-md-6 col-sm-12">
+            <div class="fs-3 mb-3" id="goto1">Define : Re-framing and defining the problem in human-centric ways.</div>
             <p>It’s time to accumulate the information gathered during the Empathize stage. Then analyze your observations and synthesize them to define the core problems you and your team have identified.</p> 
             <p>These definitions are called problem statements. You can create personas to help keep your efforts human-centered before proceeding to ideation.</p>
           </div>
-          <div class="col-md-8 col-sm-12">
-            <img class="img-fluid w-100" src="assets/img/flow/define-hmw.png">
+          <div class="col-md-3 col-sm-12 my-auto">
+            <div class="card bg-light text-dark mb-md-0 mb-3">
+              <div class="card-body">
+                <img class="img-fluid w-100 pt-2" src="assets/img/flow/define.png">
+                <hr>
+                <div class="d-flex justify-content-between">
+                  <div class="small my-auto">Stages 1</div>
+                  <button class="btn btn-sm btn-outline-dark"><i class="material-icons">fullscreen</i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12 my-auto">
+            <div class="card bg-light text-dark mb-md-0 mb-3">
+              <div class="card-body">
+                <img class="img-fluid w-100 pt-2" src="assets/img/flow/define-hmw.png">
+                <hr>
+                <div class="d-flex justify-content-between">
+                  <div class="small my-auto">Stages 2</div>
+                  <button class="btn btn-sm btn-outline-dark"><i class="material-icons">fullscreen</i></button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -129,7 +150,7 @@
         <div class="row">
           <div class="col-md-4 col-sm-12 my-auto">
             <i class="material-icons me-2 mb-3" style="font-size: 40px;">emoji_objects</i>
-            <div class="fs-3">Ideate</div>
+            <div class="fs-3 mb-3">Ideate : Creating many ideas</div>
             <p>We should gain an empathetic understanding of the problem we’re trying to solve, through user research.</p>
             <p>Empathy is crucial to a human-centered design process such as design thinking because it allows you to set aside your own assumptions about the world and gain real insight into users and their needs.</p>
           </div>
@@ -160,49 +181,70 @@
         </div>
       </div>
 
-      <div class="row align-items-md-stretch">
+      <div class="row align-items-md-stretch" id="goto2">
         <div class="col-md-6 mb-4">
           <div class="text-white bg-dark rounded-3 h-100 p-lg-5 p-4">
-            <img class="img-fluid w-100 mb-3" src="assets/img/prototype/wireframe.png">
-            <div class="fs-3" id="goto2">Wireframe</div>
+            <img class="img-fluid w-100 mb-4" src="assets/img/prototype/wireframe.png">
+            <div class="d-flex justify-content-between">
+              <div class="fs-3">Wireframe</div>
+              <div class="d-flex">
+                <button class="btn btn-outline-light me-2"><i class="material-icons">fullscreen</i></button>
+                <button class="btn btn-outline-light" type="button">Open in Figma</button>
+              </div>
+            </div>
+            <hr>
             <p>Is a two-dimensional illustration of a page's interface that specifically focuses on space allocation and prioritization of content, functionalities available, and intended behaviors</p>
-            <button class="btn btn-outline-light" type="button">Open in Figma</button>
           </div>
         </div>
         <div class="col-md-6 mb-4">
           <div class="bg-light border rounded-3 h-100 p-lg-5 p-4">
-            <div class="fs-3">Mockups</div>
+            <div class="fs-3">Hi-fi Mockups</div>
             <p>is a visual way of representing a product. While a wireframe mostly represents a product's structure, a mockup shows how the product is going to look like.</p>
-            <button class="btn btn-outline-dark" type="button">Open in Figma</button>
+            <img class="img-fluid w-100 mb-4" src="assets/img/prototype/hifi.png">
+            <hr>
+            <div class="d-flex">
+              <button class="btn btn-outline-secondary me-2"><i class="material-icons">fullscreen</i></button>
+              <button class="btn btn-outline-secondary" type="button">Open in Figma</button>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="bg-warning border rounded-3 p-md-5 p-4 mb-4 ">
-        <h3 class="fs-3 mb-3">Test</h3>
+      <div class="p-md-5 p-4 mb-4 ">
+        <h3 class="fs-3 mb-3">Test : Prototype to the problem</h3>
         <p>Evaluators rigorously test the prototypes. Although this is the final phase, design thinking is iterative: Teams often use the results to redefine one or more further problems. So, we can return to previous stages to make further iterations, alterations and refinements – to find or rule out alternative solutions.</p>
       </div>
-      
-    </div>
 
-    <div>
-      <div class="container-fluid mb-4">
-        <div class="container p-5 d-flex justify-content-center my-auto">
-          <div class="h5">Did you like this article?</div>
-          <button class="btn btn-outline-dark mx-3"><i class="material-icons me-2">favorite</i>400</button>
-          <div class="h5">if you enjoy please</div>
-          <button class="btn btn-outline-dark mx-3"><i class="material-icons me-2">share</i>Share</button> 
-          <div class="h5">to your media</div>
+      <div class="bg-warning border rounded-3 p-md-5 p-4 mb-4 ">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 my-auto">
+            <h3 class="fs-3 mb-3">Conclusion</h3>
+            <p>Design Thinking is not exclusive to designers—all great innovators in literature, art, music, science, engineering and business have practiced it. So, why call it Design Thinking? Well, that’s because design work processes help us systematically extract, teach, learn and apply human-centered techniques to solve problems in a creative and innovative way—in our designs, businesses, countries and lives. And that’s what makes it so special.</p>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <video width="100%" height="240" controls>
+              <source src="assets/video/summary.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
+        
       </div>
-    </div>
 
-    <div class="container">
-      <div class="px-lg-5 px-4 mb-4">
+      <div class="d-flex justify-content-center my-auto p-5">
+        <div class="h5">Did you like this article?</div>
+        <button class="btn btn-outline-dark mx-3"><i class="material-icons me-2">favorite</i>400</button>
+        <div class="h5">if you enjoy please</div>
+        <button class="btn btn-outline-dark mx-3"><i class="material-icons me-2">share</i>Share</button> 
+        <div class="h5">to your media</div>
+      </div>
+
+      <div class="px-lg-5 px-4 mb-4" id="goto3">
         <div class="row">
           <div class="col-md-2 col-6 px-lg-2 px-1 my-auto">
             <img src="assets/img/logox/logo-bw.png" class="img-fluid opacity-25">
           </div>
+
           <div class="col-md-2 col-6 px-lg-2 px-1 mb-3">
             <div class="card bg-light">
               <img src="assets/img/teamx/ranggi.png" class="card-img-top">
@@ -212,6 +254,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-md-2 col-6 px-lg-2 px-1 mb-3">
             <div class="card bg-light">
               <img src="assets/img/teamx/adi.png" class="card-img-top">
@@ -221,6 +264,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-md-2 col-6 px-lg-2 px-1 mb-3">
             <div class="card bg-light">
               <img src="assets/img/teamx/sarah.png" class="card-img-top">
@@ -230,6 +274,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-md-2 col-6 px-lg-2 px-1 mb-3">
             <div class="card bg-light">
               <img src="assets/img/teamx/wanda.png" class="card-img-top">
@@ -239,6 +284,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-md-2 col-6 px-lg-2 px-1 mb-3">
             <div class="card bg-light">
               <img src="assets/img/teamx/imam.png" class="card-img-top">
@@ -248,6 +294,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-md-2 col-6 px-lg-2 px-1 mb-3">
             <div class="card bg-light">
               <img src="assets/img/teamx/thowaf.png" class="card-img-top">
@@ -257,6 +304,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-md-2 col-6 px-lg-2 px-1 mb-3">
             <div class="card bg-light">
               <img src="assets/img/teamx/miftah.png" class="card-img-top">
@@ -269,15 +317,6 @@
           
           <div class="col-md-2 col-6 px-lg-2 px-1 mb-3">
             <div class="card bg-light">
-              <img src="assets/img/teamx/sita.png" class="card-img-top">
-              <div class="card-body bg-white rounded py-2">
-                <div class="fw-bold">Sita Chofifah O.</div>
-                <p class="card-text small">Developer</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2 col-6 px-lg-2 px-1 mb-3">
-            <div class="card bg-light">
               <img src="assets/img/teamx/sultana.png" class="card-img-top">
               <div class="card-body bg-white rounded py-2">
                 <div class="fw-bold">Sultana Balqis H.</div>
@@ -285,6 +324,17 @@
               </div>
             </div>
           </div>
+
+          <div class="col-md-2 col-6 px-lg-2 px-1 mb-3">
+            <div class="card bg-light">
+              <img src="assets/img/teamx/sita.png" class="card-img-top">
+              <div class="card-body bg-white rounded py-2">
+                <div class="fw-bold">Sita Chofifah O.</div>
+                <p class="card-text small">Developer</p>
+              </div>
+            </div>
+          </div>
+
           <div class="col-md-4 col-sm-12 my-auto text-muted">
             <figure class="px-2">
               <blockquote class="blockquote fs-6 mb-5">
@@ -295,15 +345,15 @@
               </figcaption>
             </figure>
           </div>
+
+          <hr>
+          <div class="text-center text-muted mb-3">
+            <img class="me-2" style="height: 20px;" src="assets/img/other/license.png">
+            <small>© 2022 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">License</a> lets others remix, adapt, and build upon work non-commercially, as long as credit Team32 and license new creations under the identical <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">terms</a>.</small>
+          </div>
+          
         </div>
       </div>
-
-      <hr>
-      <div class="text-center text-muted mb-3">
-        <img class="me-2" style="height: 20px;" src="assets/img/other/license.png">
-        <small>© 2022 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">License</a> lets others remix, adapt, and build upon work non-commercially, as long as credit Team32 and license new creations under the identical <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">terms</a>.</small>
-      </div>
-
     </div>
 </body>
 

@@ -47,8 +47,15 @@ a {
 }
 
 /* add svg hover change color */
-.svg-light:hover {
-  fill: white;
+.svg-light:hover img {
+  filter: invert(100%) ;
+}
+
+.svg-dark img {
+  filter: brightness(0) invert(1);
+}
+.svg-dark:hover img {
+  filter: brightness(100) invert(0) ;
 }
 
 /* container holding the image and the text */

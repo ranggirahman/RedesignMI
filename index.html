@@ -42,6 +42,7 @@
 	<!-- Js (Global) -->
   <script src="./assets/popper/popper.js"></script>
   <script src="./assets/bootstrap/js/bootstrap.js"></script>
+  <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=61e93b1e539bcd001929d65a&product=inline-share-buttons" async="async"></script>
 
 </head>
 <body>
@@ -195,7 +196,7 @@
               <div class="col-md-6 col-sm-12 fs-3 mb-md-0 mb-3">Wireframe</div>
               <div class="col-md-6 col-sm-12 text-md-end">
                 <button class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#wiref"><i class="material-icons">fullscreen</i></button>
-                <a href="https://www.figma.com/file/zKUe6ZZwxciWF6G2Bzkxvw/MyIndihome-(Design-Thinking-32)?node-id=170%3A6609" target="_blank" class="btn btn-outline-light"><img src="./assets/img/logox/figma.svg" class="me-2" style="max-height: 22px;">Open in Figma</a>
+                <a href="https://www.figma.com/file/zKUe6ZZwxciWF6G2Bzkxvw/MyIndihome-(Design-Thinking-32)?node-id=170%3A6609" target="_blank" class="btn btn-outline-light svg-dark"><img src="./assets/img/logox/figma.svg" class="me-2" style="max-height: 22px;">Open in Figma</a>
               </div>
             </div>
             <hr>
@@ -211,8 +212,8 @@
             <hr>
             <div class="d-flex">
               <button class="btn btn-outline-dark me-2" data-bs-toggle="modal" data-bs-target="#protot"><i class="material-icons">fullscreen</i></button>
-              <a href="https://www.figma.com/file/zKUe6ZZwxciWF6G2Bzkxvw/MyIndihome-(Design-Thinking-32)?node-id=170%3A6606" target="_blank" class="btn btn-outline-dark me-2"><img src="./assets/img/logox/figma.svg" class="me-2" style="max-height: 22px;">Open in Figma</a>
-              <a href="https://www.figma.com/proto/zKUe6ZZwxciWF6G2Bzkxvw/MyIndihome-Design-Thinking-32?node-id=17%3A4&viewport=241%2C48%2C0.37&scaling=min-zoom&starting-point-node-id=226%3A8139&show-proto-sidebar=1" target="_blank" class="btn btn-outline-dark"><i class="material-icons">play_arrow</i>Run Demo</a>
+              <a href="https://www.figma.com/file/zKUe6ZZwxciWF6G2Bzkxvw/MyIndihome-(Design-Thinking-32)?node-id=170%3A6606" target="_blank" class="btn btn-outline-dark svg-light me-2"><img src="./assets/img/logox/figma.svg" class="me-2" style="max-height: 22px;">Open in Figma</a>
+              <a href="https://www.figma.com/proto/zKUe6ZZwxciWF6G2Bzkxvw/MyIndihome-Design-Thinking-32?node-id=17%3A4&viewport=241%2C48%2C0.37&scaling=min-zoom&starting-point-node-id=226%3A8139&show-proto-sidebar=1" target="_blank" class="btn btn-outline-dark"><i class="material-icons me-2">play_arrow</i>Demo</a>
             </div>
           </div>
         </div>
@@ -242,12 +243,8 @@
         
       </div>
 
-      <div class="d-inline justify-content-center p-5">
-        Did you like this article?
-        <button class="btn btn-outline-dark mx-3"><i class="material-icons me-2">favorite</i>400</button>
-        if you enjoy please
-        <button class="btn btn-outline-dark mx-3"><i class="material-icons me-2">share</i>Share</button> 
-        to your media
+      <div class="text-center p-5 mb-3">
+        <span class="d-none d-sm-inline">Did you like this article?</span><button class="btn btn-outline-dark mx-3"><i class="material-icons me-2">favorite</i>400</button><span class="d-none d-sm-inline">if you enjoy please</span><button class="btn btn-outline-dark mx-3"  data-bs-toggle="modal" data-bs-target="#share"><i class="material-icons me-2">share</i>Share</button>
       </div>
 
       <div class="px-lg-5 px-4 mb-4" id="goto3">
@@ -501,6 +498,15 @@
   </div>
 </div>
 
-<script>
-  
-</script>
+<div class="modal fade" id="share" tabindex="-1" aria-labelledby="shareLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">  
+        <button class="btn btn-outline-dark" data-bs-dismiss="modal"><i class="material-icons cur-pointer">close</i></button>
+      </div>
+      <div class="modal-body d-flex">
+        <div class="sharethis-inline-share-buttons"></div>
+      </div>
+    </div>
+  </div>
+</div>

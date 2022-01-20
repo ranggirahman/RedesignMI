@@ -46,44 +46,9 @@ a {
      box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);   
 }
 
-/* custom coloer (nindya karya) */
-.active-nk {
-	color: #E85D25 !important;
-}
-.active-nk:hover {
-	color: #E85D25 !important;
-}
-
-.text-nk {
-	color: #E85D25 !important;
-}
-
-.border-nk {
-	border-color: #E85D25 !important;
-}
-
-.btn-nk {
-	background-color: #E85D25 !important;
-	color: white !important;
-}
-.btn-nk:hover {
-	background-color: #C42228 !important;
-	color: white !important;
-}
-
-.btn-outline-nk {
-	background-color: #FFFFFF !important;
-	border-color: #E85D25 !important;
-	color: #E85D25 !important;
-}
-.btn-outline-nk:hover {
-	background-color: #E85D25 !important;
-	color: white !important;
-}
-
-.bg-nk {
-	background-color: #E85D25 !important;
-	color: white !important;
+/* add svg hover change color */
+.svg-light:hover {
+  fill: white;
 }
 
 /* container holding the image and the text */

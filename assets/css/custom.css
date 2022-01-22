@@ -48,14 +48,22 @@ a {
 
 /* add svg hover change color */
 .svg-light:hover img {
-  filter: invert(100%) ;
+  filter: invert(100%);
 }
 
 .svg-dark img {
-  filter: brightness(0) invert(1);
+  filter: brightness(0) invert(100%);
 }
 .svg-dark:hover img {
-  filter: brightness(100) invert(0) ;
+  filter: brightness(100%) invert(0);
+}
+
+.svg-secondary img {
+  opacity: 50%;
+}
+.svg-secondary:hover img {
+  opacity: 100%;
+  filter: invert(100%);
 }
 
 /* container holding the image and the text */
